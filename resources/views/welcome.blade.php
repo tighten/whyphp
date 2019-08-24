@@ -48,7 +48,7 @@
                             <li><a href="https://isrubydead.com/" class="no-underline hover:underline font-normal text-teal-900">Is <strike>Ruby</strike> PHP dead?</a></li>
                             <li><a href="https://www.mathieu-ferment.com/viva-php" class="no-underline hover:underline font-normal text-teal-900">Viva PHP</li>
                             <li><a href="https://stitcher.io/blog/php-in-2019" class="no-underline hover:underline font-normal text-teal-900">PHP in 2019</a></li>
-                            <li><a href="https://stitcher.io/blog/php-in-2019" class="no-underline hover:underline font-normal text-teal-900">This tweet and its replies: <a href="https://twitter.com/stauffermatt/status/1163794261906771968" class="text-sm">https://twitter.com/stauffermatt/status/1163794261906771968</a></li>
+                            <li><a href="https://twitter.com/stauffermatt/status/1163794261906771968" class="no-underline hover:underline font-normal text-teal-900">This tweet and its replies</li>
                         </ul>
                     </li>
                    <li class="mb-4">
