@@ -18,11 +18,11 @@
     @if (Route::has('login') && false)
         <div class="absolute top-0 right-0 mt-4 mr-4">
             @auth
-                <a href="{{ url('/home') }}" class="no-underline hover:underline font-normal text-teal-900 uppercase">{{ __('Home') }}</a>
+                <a href="{{ url('/home') }}" class="no-underline hover:underline font-normal text-blue-600 uppercase">{{ __('Home') }}</a>
             @else
-                <a href="{{ route('login') }}" class="no-underline hover:underline font-normal text-teal-900 uppercase pr-6">{{ __('Login') }}</a>
+                <a href="{{ route('login') }}" class="no-underline hover:underline font-normal text-blue-600 uppercase pr-6">{{ __('Login') }}</a>
                 @if (Route::has('register'))
-                    <a href="{{ route('register') }}" class="no-underline hover:underline font-normal text-teal-900 uppercase">{{ __('Register') }}</a>
+                    <a href="{{ route('register') }}" class="no-underline hover:underline font-normal text-blue-600 uppercase">{{ __('Register') }}</a>
                 @endif
             @endauth
         </div>
@@ -32,7 +32,7 @@
         <div class="flex flex-col justify-around h-full">
             <div>
                 <h1 class="text-gray-900 text-center font-bold text-5xl mb-6">
-                    Why PHP?
+                    Why PHP❓
                 </h1>
                 <div class="mb-8 leading-normal">
                     <p><strong>What's this?</strong><br>A placeholder for a site designed to answer the question "Why PHP?". By Matt Stauffer of Tighten, with the goals to:<br><br>
@@ -41,27 +41,44 @@
                 </p>
                 </div>
                 <ul>
-                    <li class="mb-4">
+                    <li class="mb-8">
                         <div class="font-bold mb-2 text-lg">Isn't PHP dead?</div>
 
-                        <ul class="ml-4 leading-normal list-disc list-inside">
-                            <li><a href="https://isrubydead.com/" class="no-underline hover:underline font-normal text-teal-900">Is <strike>Ruby</strike> PHP dead?</a></li>
-                            <li><a href="https://www.mathieu-ferment.com/viva-php" class="no-underline hover:underline font-normal text-teal-900">Viva PHP</li>
-                            <li><a href="https://stitcher.io/blog/php-in-2019" class="no-underline hover:underline font-normal text-teal-900">PHP in 2019</a></li>
-                            <li><a href="https://twitter.com/stauffermatt/status/1163794261906771968" class="no-underline hover:underline font-normal text-teal-900">This tweet and its replies</li>
+                        <ul class="ml-8 leading-normal list-disc">
+                            <li><a href="https://isrubydead.com/" class="no-underline hover:underline font-normal text-blue-600">Is <strike>Ruby</strike> PHP dead?</a></li>
+                            <li><a href="https://www.mathieu-ferment.com/viva-php" class="no-underline hover:underline font-normal text-blue-600">Viva PHP</li>
+                            <li><a href="https://stitcher.io/blog/php-in-2019" class="no-underline hover:underline font-normal text-blue-600">PHP in 2019</a></li>
+                            <li><a href="https://twitter.com/stauffermatt/status/1163794261906771968" class="no-underline hover:underline font-normal text-blue-600">This tweet and its replies</a></li>
                         </ul>
                     </li>
-                   <li class="mb-4">
+                    <li class="mb-8">
+                        <div class="font-bold mb-2 text-lg">OK, but why PHP?</div>
+
+                        <ul class="ml-8 leading-normal list-disc">
+                            <li>Market-share</li>
+                            <li>Ease of learning</li>
+                            <li>Ease of hosting</li>
+                            <li>Jobs available (for devs), developers available (for companies)</li>
+                            <li>Mature and robust ecosystem of products and tools
+                                <ul class="ml-8 leading-normal list-disc">
+                                    <li>E.g. <a href="https://laravel.com/">top backend framework on GitHub</a></li>
+                                    <li>E.g. <a href="https://wordpress.org/">top CMS by usage</a></li>
+                                    <li>E.g. incredible array of communities and hosting platforms and tools and SaaSes and PaaSes</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="mb-8">
                         <div class="font-bold mb-2 text-lg">Other stuff I guess?</div>
 
-                        <ul class="ml-4 leading-normal list-disc list-inside">
-                            <li><a href="/pdf/enterprise-php-ireland-whitepaper.pdf" class="no-underline hover:underline font-normal text-teal-900">10-year old but still interesting white paper on PHP viability in the enterprise</a></li>
+                        <ul class="ml-8 leading-normal list-disc">
+                            <li><a href="/pdf/enterprise-php-ireland-whitepaper.pdf" class="no-underline hover:underline font-normal text-blue-600">10-year old but still interesting white paper on PHP viability in the enterprise</a></li>
                         </ul>
                     </li>
                 </ul>
                 <p class="mt-12">@todo: Lots more content gathering and planning, then a design and generating materials and then lots of marketing etc.</p>
             </div>
-            <div><a href="https://github.com/tightenco/whyphp" class="text-teal-900 hover:underline">Source on GitHub</a></div>
+            <div><a href="https://github.com/tightenco/whyphp" class="text-blue-600 hover:underline">Source on GitHub</a></div>
         </div>
 
     </div>
